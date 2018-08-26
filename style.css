@@ -1,19 +1,35 @@
+table.banner{
+    padding-bottom: -5px;
+    border-collapse: collapse;
+}
 a.text{
     text-decoration: none;
     color: black;
 
 }
+#alert{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 19px;
+}
+#ban{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 22px;
+}
 a.text:hover{
     color:#c70303;
 
 }
-
+.pad{
+    padding-top: 5px;
+}
 #navigation {
     list-style: none;
     background: #1a1a1a;
     overflow: hidden;
-    width: 1178px;
-    padding-left: 80px;
+    width: 1188px;
+    padding-left: 70px;
 }
 #navigation li {
     float: left;
