@@ -1,5 +1,4 @@
 table.banner{
-    padding-bottom: -5px;
     border-collapse: collapse;
 }
 a.text{
@@ -28,21 +27,21 @@ a.text:hover{
     list-style: none;
     background: #1a1a1a;
     overflow: hidden;
-    width: 1188px;
-    padding-left: 70px;
+    width: 1112px;
+    padding-left: 150px;
 }
 #navigation li {
     float: left;
     border-right: solid 1px #2e2e2e;
-    height: 35px;
+    height: 30px;
 }
 
 #navigation li a:link, #navigation li a:visited {
     text-decoration: none;
     display: block;
-    height: 35px;
+    height: 30px;
     color: #808080;
-    line-height: 35px;
+    line-height: 30px;
     padding: 0 9px 0 9px;
     border-right: solid 1px #1a1a1a;
     font-family: Arial, Helvetica, sans-serif;
@@ -85,4 +84,8 @@ a.text:hover{
 }    
 #img-pos{
     padding: 7px;
+}
+#cnnLogo{
+    position: absolute;
+    transform: translate(-99%, -19%)
 }
